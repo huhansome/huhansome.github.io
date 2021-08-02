@@ -1,0 +1,18 @@
+---
+title: iOS自动布局，iOS autolayout
+tags: 码农世界
+description: iOS storyboard 和 xib布局细节，intrinsicContentSize和contentHuggingPriority等的作用
+---
+
+不得不说在平常的iOS开发中，我们依赖了太多的三方库，导致Apple自身的东西或多或少的有些生疏，尤其是在iOS开发中布局这块的工作，像开源的Masonry，swift版本的SnapKit等占据了我们平常APP中布局的中要角色，很少有人会使用Apple自身的api，像NSLayoutConstraint等，以及Apple的VFL可视化格式语言，这些自身的API看起来是那么的繁琐，相反第三方库倒是非常精简，好用。
+
+现在我们就来看看一些平常有些忽略的东西吧，在UIview中有这样三个属性：intrinsicContentSize、contentHuggingPriority、contentCompressionResistencePriority.这三个属性平常在使用三方布局框架的时候，应该是很少会用到的，下面我们来看看三个属性分别有什么用。
+
+### intrinsicContentSize
+这个属性表示系统为控件计算的大小，想想我们平常要是new一个UIView然后就直接放到父视图上面，是不是会看不到，因为这view是没有大小的，但是如果我们自己定义一个view集成自UIView然后重写这个属性，给一个固定大小，我们再new一个放到父视图上（当然要确定位置）这时我们就能看到这个视图。该属性就是系统通过计算得到控件大小，我们称为固有属性，也就是为什么在使用masonry的时候，对于label和button我们只确定位置就能看的到视图，因为UIlabel和UIbutton系统是定义了高度和宽度的，而对于UIview是没有的，Sliders是定义了宽度的。
+
+### contentHuggingPriority
+在布局的时候我们肯定会遇到这样的情形，那就是view1和view2一起放到一个父视图里面，view1和view2有一定的间隔，同时view1和view2和父视图也有间隔，但是父视图是在变化的，这个时候我们很有可能希望view1的高度不要变化，view2跟着父视图变化，或者相反的一些操作，这个属性就是控制视图不被拉伸的优先级，同时使用的时候会带一个坐标系的方向，如果优先级高表示视图越不会被拉伸，如果我们完成自动布局后不希望某个视图在某个方向被拉伸就可以使用这个东西去控制。
+
+### contentCompressionResistencePriority
+与contentHuggingPriority相对于，这个属性表示的是视图不被压缩的优先级，也就是抗压缩的优先级，为了保证视图不被压缩，可以将这个优先级设置到high
