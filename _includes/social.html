@@ -1,0 +1,71 @@
+<nav class="cover-navigation navigation--social">
+  <ul class="navigation">
+
+  {% if site.social.youtube %}
+  <!-- Weibo -->
+  <li class="navigation__item">
+    <a href="https://www.youtube.com/channel/{{site.social.youtube}}" title="@huhansome的频道" target="_blank">
+      <i class='social fa fa-youtube-play'></i>
+      <span class="label">YouTube</span>
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.social.github %}
+  <!-- Github -->
+  <li class="navigation__item">
+    <a href="https://github.com/huhansome" title="@huhansome 的 Github" target="_blank">
+      <i class='social fa fa-github'></i>
+      <span class="label">Github</span>
+    </a>
+  </li>
+  {% endif %}
+  
+  {% if site.social.twitter %}
+  <!-- Twitter -->
+  <li class="navigation__item">
+    <a href="http://twitter.com/{{site.social.twitter}}" title="@{{site.social.twitter}}" target="_blank">
+      <i class='social fa fa-twitter'></i>
+      <span class="label">Twitter</span>
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.social.gplus %}
+  <!-- Google Plus -->
+  <li class="navigation__item">
+    <a href="https://plus.google.com/{{site.social.gplus}}" rel="author" title="Google+" target="_blank">
+      <i class='social fa fa-google-plus-square'></i>
+      <span class="label">Google Plus</span>
+    </a>
+  </li>
+  {% endif %}
+
+  <!-- RSS -->
+  <li class="navigation__item">
+    <a href="/feed.xml" rel="author" title="RSS" target="_blank">
+      <i class='social fa fa-rss'></i>
+      <span class="label">RSS</span>
+    </a>
+  </li>
+  
+  <!-- sitemap -->
+  <li class="navigation__item">
+    <a href="/sitemap.xml" rel="author" title="sitemap" target="_blank">
+      <i class='social fa fa-sitemap'></i>
+      <span class="label">SITEMAP</span>
+    </a>
+  </li>
+
+  {% if site.social.mail %}
+  <!-- Email -->
+  <li class="navigation__item">
+    <a href="mailto:{{site.social.mail}}" title="Contact me">
+      <i class='social fa fa-envelope'></i>
+      <span class="label">Email</span>
+    </a>
+  </li>
+  {% endif %}
+
+  </ul>
+</nav>

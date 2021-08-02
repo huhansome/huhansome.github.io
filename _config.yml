@@ -1,0 +1,49 @@
+# Basic
+title: 他山之石，可以攻玉
+subtitle: 庄生晓梦迷蝴蝶，好梦由来最易醒
+#<a href="/merger.html">如果你觉得我的文字对你有所帮助，也可以请我喝杯咖啡~</a>
+welcome_message: <a target="_blank" href="https://www.aliyun.com/minisite/goods?source=5176.11533457&userCode=j6bryttg">阿里云服务器，限时秒杀价低至86/年，券后66/年</a><br/><a target="_blank"  href="https://ac.aliyun.com/application/webdesign/sumei?source=5176.11533457&userCode=j6bryttg">阿里云建站 速成美站 - 千套模板，价格低至500元</a>
+
+description: <span>我是胡汉三<br/>英文名huhansome<br/>欢迎光临我的老窝<br/>技术是学不完的<br/>但是可以尽量多学<br/>加油💪</span>
+creator: <a href="">@huhansome</a>
+seodescription: <span>我是胡汉三,英文名huhansome。欢迎光临我的老窝，这里有实用技巧分享，也有技术、游戏经验交流，还有知识普及、科技解读，更有网赚经验分享。</span>
+
+url: "https://huhansome.github.io"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: green
+
+blog_button:
+    title: 博客
+    description: 访问博客
+
+nav:
+    - {title: 云服务器, description: 阿里云服务器，限时秒杀价低至86/年，券后66/年, url: 'https://huhansome.github.io/2020/08/aliyunfuwu/'}
+    - {title: 云建站, description: 阿里云建站 速成美站 - 千套模板，价格低至500元, url: 'https://ac.aliyun.com/application/webdesign/sumei?source=5176.11533457&userCode=j6bryttg'}
+    - {title: 打赏, description: 请他喝咖啡, url: '/merger.html'}
+
+# Pagination
+plugins: [jekyll-paginate, jekyll-sitemap]
+paginate: 6
+paginate_path: "page/:num/"
+
+# Comment
+#comment:
+#    disqus: onevcat
+    # duoshuo:
+# Social
+social:
+    youtube: UCb4enWjBmzSLE5iFn7xpXBQ
+    github: huhansome
+    twitter: huhansome
+    mail: hucd_mail@yeah.net
+
+# Google Analytics
+#ga:
+#    id: UA-169358395-1
+#    host: onevcat.com
