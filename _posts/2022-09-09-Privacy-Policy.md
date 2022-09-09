@@ -7,8 +7,6 @@ tags: [隐私协议, 隐私政策, App Store, 上架]
 ---
 
 
-<center>Privacy Policy</center>
-
 **PRIVACY NOTICE**
 
 Thank you for choosing to be part of our community at Creative Clock (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at hucd_mail@yeah.net.
