@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 author: huhansome
-date: 2022-09-09 17:38:00 +0800
+date: 2022-09-09 10:38:00 +0800
 categories: [iOS]
 tags: [隐私协议, 隐私政策, App Store, 上架]
 ---
