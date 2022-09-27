@@ -5,9 +5,9 @@ keywords: 云建站,阿里云建站,阿里云,aliyun,网站模板,企业官网�
 description: 阿里云服务器，腾讯云服务器，云建站，CDN，商标代注册，云数据库等通通限时折扣
 ---
 
-[阿里云服务器，限时秒杀价低至102/年，券后96/年](https://www.aliyun.com/minisite/goods?source=5176.11533457&userCode=j6bryttg)
+[阿里云服务器，低至17.49元/3个月起](https://www.aliyun.com/activity/new?source=5176.11533457&userCode=j6bryttg)
 
-[阿里云企业级服务器1折限时特惠](https://promotion.aliyun.com/ntms/act/enterprise-discount.html?source=5176.11533457&userCode=j6bryttg)
+[精选阿里云销量榜单产品，云服务器 ECS 1核1G S6 0.9元/月起](https://www.aliyun.com/activity/daily/bestoffer?source=5176.11533457&userCode=j6bryttg)
 
 [阿里云建站 速成美站 - 千套模板，价格低至500元](https://ac.aliyun.com/application/webdesign/sumei?source=5176.11533457&userCode=j6bryttg)
 
