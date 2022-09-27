@@ -2,7 +2,7 @@
 title: 他山之石，可以攻玉
 subtitle: 庄生晓梦迷蝴蝶，好梦由来最易醒
 #<a href="/merger.html">如果你觉得我的文字对你有所帮助，也可以请我喝杯咖啡~</a>
-welcome_message: <a target="_blank" href="https://www.aliyun.com/minisite/goods?source=5176.11533457&userCode=j6bryttg">阿里云服务器，限时秒杀价低至86/年，券后66/年</a><br/><a target="_blank"  href="https://ac.aliyun.com/application/webdesign/sumei?source=5176.11533457&userCode=j6bryttg">阿里云建站 速成美站 - 千套模板，价格低至500元</a>
+welcome_message: <a target="_blank" href="https://www.aliyun.com/activity/daily/bestoffer?source=5176.11533457&userCode=j6bryttg">精选阿里云销量榜单产品，云服务器 ECS 1核1G S6 0.9元/月起</a><br/><a target="_blank"  href="https://ac.aliyun.com/application/webdesign/sumei?source=5176.11533457&userCode=j6bryttg">阿里云建站 速成美站 - 千套模板，价格低至500元</a>
 
 description: <span>我是胡汉三<br/>英文名huhansome<br/>欢迎光临我的老窝<br/>技术是学不完的<br/>但是可以尽量多学<br/>加油💪</span>
 creator: <a href="">@huhansome</a>
@@ -23,7 +23,7 @@ blog_button:
     description: 访问博客
 
 nav:
-    - {title: 云服务器, description: 阿里云服务器，限时秒杀价低至86/年，券后66/年, url: 'https://huhansome.github.io/2020/08/aliyunfuwu/'}
+    - {title: 云服务器, description: 精选阿里云销量榜单产品，云服务器 ECS 1核1G S6 0.9元/月起, url: 'https://huhansome.github.io/2020/08/aliyunfuwu/'}
     - {title: 云建站, description: 阿里云建站 速成美站 - 千套模板，价格低至500元, url: 'https://ac.aliyun.com/application/webdesign/sumei?source=5176.11533457&userCode=j6bryttg'}
     - {title: 打赏, description: 请他喝咖啡, url: '/merger.html'}
 
